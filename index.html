@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Webcoding Quiz</title>
+  <link rel="stylesheet" href="Assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header>
+      <p>Time: </p>
+      <p id="timer">75</p>
+      <button id="scores_btn" class="btn">View Highscores</button>
+      <h1>Webcoding Quiz</h1>
+      <button id="start-btn" class="btn">Start</button>
+    </header>
+
+    <div class="card">
+      <!--<div class="card-header">
+          
+        </div> -->
+      <div class="card-body">
+        <h2 id="question_text">Answer the questions in the time allotted</h2>
+        <div id="options">
+          <button id="quiz_btn1" class="questBtn">Choice 1</button>
+          <button id="quiz_btn2" class="questBtn">Choice 2</button>
+          <button id="quiz_btn3" class="questBtn">Choice 3</button>
+          <button id="quiz_btn4" class="questBtn">Choice 4</button>
+        </div>
+
+        <div id="initials-box">
+          <label for="initials">Enter Initials:</label>
+          <input type="text" id="initials" name="initials">
+        </div>
+        <button id="back_btn" class="btn">Go Back</button>
+        <button id="clear_btn" class="btn">Clear Highscores</button>
+
+        <p id="answer-prompt">Answered</p>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="Assets/js/script.js"></script>
+</body>
+
+</html>
